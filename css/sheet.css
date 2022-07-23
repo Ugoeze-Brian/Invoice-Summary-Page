@@ -1,0 +1,114 @@
+body{
+    background-color: bisque;
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display";
+    font-size: 14px;   
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 300px;
+    text-align: center;
+    height: 50%;
+    margin: 50px 500px;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+              
+}
+
+.top{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    
+}
+
+.content-wrapper{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+    margin: auto;
+            
+}
+
+.order-summary{
+    padding: 5px;
+    margin: auto;
+            
+}
+
+.sub-content{
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 10px;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.mini-content{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+}
+
+.music{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+       
+}
+
+span{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.change{
+    position: relative;
+    bottom: 18px;
+    right: -90px;
+}
+
+
+
+.payment{
+    width: 100%;
+    margin: inherit;
+
+}
+
+button{
+    text-align: center;
+    width: 85%;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 5px hsl(224, 23%, 55%);
+    margin: 15px;
+        
+}
+
+button > a{
+    text-align: center;
+    color: hsl(225, 100%, 94%);
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+/* .cancel{
+    margin-bottom: 50px;
+} */
+
+
+a:hover{
+    color: hsl(223, 47%, 23%);
+}
